@@ -1,0 +1,25 @@
+{
+  "name": "fullcycle-challenge01",
+  "version": "1.0.0",
+  "description": "Maratona FullCycle - Desafio 01",
+  "main": "src/app.js",
+  "scripts": {
+    "serve": "node -r dotenv/config src/app.js",
+    "build": "docker build -t leonpereiratech/fullcycle2-challenge01:1.0.0 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/leon-developer-br/fullcycle2-challenge01.git"
+  },
+  "author": "Leonardo Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leon-developer-br/fullcycle2-challenge01/issues"
+  },
+  "homepage": "https://github.com/leon-developer-br/fullcycle2-challenge01#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
